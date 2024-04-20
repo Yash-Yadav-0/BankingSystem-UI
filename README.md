@@ -1,4 +1,4 @@
-# BankingSystem
+# BankingSystem-UI
 
 Welcome to the Bank System-UI Project repository! This project aims to develop a compact yet efficient bank system, providing essential functionalities. Built using javascript,scss, [ https://github.com/Yash-Yadav-0/BankingSystem as backend ] , this application delivers a robust platform for banking operations.
 
