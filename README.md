@@ -23,3 +23,4 @@ Welcome to the Bank System-UI Project repository! This project aims to develop a
 - npm run dev
 - & https://github.com/Yash-Yadav-0/BankingSystem as backend
 
+### Commit changes from contributors cannot be displayed due to the private nature of the main repository.
