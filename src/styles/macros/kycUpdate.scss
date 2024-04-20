@@ -1,0 +1,36 @@
+.kycUpdatePage {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        min-width:80%;
+    }
+
+    .label {
+        margin-bottom: 5px;
+    }
+
+    .update-btn {
+        color: var(--grey-900);
+        background-color: var(--primary-green-light);
+
+        &:hover::after {
+            background-color: var(--primary-green-main);
+        }
+    }
+}

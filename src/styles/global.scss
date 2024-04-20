@@ -1,0 +1,23 @@
+@import './variables';
+@import './common';
+
+@import './macros/form';
+@import './macros/home';
+@import './macros/login';
+@import './macros/nopage';
+@import './macros/navbar';
+@import './macros/asidebar';
+@import './macros/transaction'; 
+@import './macros/kycSubmit.scss';
+@import './macros/CustomAlert/CustomAlert.scss';
+
+
+ 
+.img-container{
+
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}

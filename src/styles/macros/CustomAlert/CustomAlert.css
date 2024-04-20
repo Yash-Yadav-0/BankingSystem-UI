@@ -1,0 +1,50 @@
+.custom-alert {
+  background: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: auto;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 1px solid var(--warning-main);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  position: relative;
+  top: 20px;
+  justify-content: center;
+  position: fixed;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
+.custom-alert .p {
+  margin: 0 0 10px;
+}
+.custom-alert .alert-button {
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  border: 3px solid var(--grey-700);
+  color: red;
+  padding: 0.5em 1em;
+  border-radius: 0.25em;
+  position: relative;
+}
+.custom-alert .alert-button::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--grey-400);
+  inset: 0;
+  scale: 0 1;
+  transform-origin: right;
+  transition: scale 450ms;
+}
+.custom-alert .alert-button:hover::after,
+.custom-alert .alert-button:focus-visible::after {
+  transform-origin: left;
+  scale: 1 1;
+}/*# sourceMappingURL=CustomAlert.css.map */

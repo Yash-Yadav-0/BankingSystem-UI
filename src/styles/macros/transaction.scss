@@ -1,0 +1,50 @@
+.transaction-container {
+  margin: 20px;
+}
+
+.transaction-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f2f2f2;
+}
+
+.transaction-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.deposit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.deposit-button:hover {
+  background-color: #0056b3;
+}
